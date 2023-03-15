@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Declarative: Checkout SCM') {
+        stage('Checkout SCM') {
             steps {
                 echo 'Hello World'
             }
         }
-        stage('Declarative: Tool install') {
+        stage('Tool install') {
             steps {
                 echo 'Hello World'
             }
