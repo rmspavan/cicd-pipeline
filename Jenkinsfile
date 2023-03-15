@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Declartive: Checkout SCM') {
+        stage('Declarative: Checkout SCM') {
             steps {
                 echo 'Hello World'
             }
         }
-        stage('Declartive: Tool install') {
+        stage('Declarative: Tool install') {
             steps {
                 echo 'Hello World'
             }
@@ -27,7 +27,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Create Articat') {
+        stage('Create Artifact') {
             steps {
                 echo 'Hello World'
             }
@@ -42,7 +42,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Deploy Dev/Staging/Prod') {
+        stage('Deploy Dev/Stg/Prod') {
             steps {
                 echo 'Hello World'
             }
