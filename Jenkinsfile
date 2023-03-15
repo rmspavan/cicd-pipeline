@@ -12,7 +12,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Bild') {
+        stage('Build') {
             steps {
                 echo 'Hello World'
             }
@@ -32,7 +32,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Publish Docker Iimage') {
+        stage('Publish Docker Image') {
             steps {
                 echo 'Hello World'
             }
